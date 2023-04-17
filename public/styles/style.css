@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  padding: 9;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+
+  background-color: #381717;
+
+  color: #ffff;
+}
+
+#icon {
+  position: relative;
+  top: 40px;
+  margin-left: 27px;
+}
+
+#container {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+#text-container {
+  font-weight: 400;
+  font: 24px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 28.93px;
+
+  width: 593px;
+  height: 237px;
+
+  margin-top: 200px;
+  margin-left: 48px;
+}
+
+#login-container {
+  width: 500px;
+  height: 450px;
+
+  margin-top: 20px;
+
+  background-color: #372929;
+}
+
+#loginText {
+  color: #ffffff;
+  margin-top: 50px;
+  text-align: center;
+
+  font-size: 24px;
+}
+
+#container-informacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  margin-top: 50px;
+}
+
+#container-informacoes > input {
+  width: 396px;
+  height: 50px;
+
+  margin: auto;
+
+  border: none;
+  outline: none;
+
+  font-size: 16px;
+  color: #7a0d0d;
+  text-align: center;
+}
+
+#container-informacoes > input::placeholder {
+  color: #7a0d0d;
+
+  opacity: 0.5;
+}
+
+#btn-login {
+  width: 150px;
+  height: 50px;
+
+  background-color: #9c977e;
+
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+
+  border: none;
+
+  margin: 50px 0 0 170px;
+
+  cursor: pointer;
+}
+
+#direitos {
+  margin-top: 40px;
+
+  color: #ffff;
+  text-align: center;
+}
